@@ -1,0 +1,617 @@
+
+body{
+    background: url(img/fon.jpg) no-repeat;
+    font-family: 'MuseoSansCyrl', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+	margin: 0;
+
+}
+
+.header {
+    padding: 84px 0;
+    display: flex;
+    width: 93.4%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper{
+    margin-left: auto;
+    width: 89.9%;
+}
+
+.header_burger{
+    display: none;
+}
+
+
+.vector{
+    padding-top: 2px;
+}
+
+.menu {
+    font-size: 22px;
+}
+
+.menu__item{
+    padding: 0 8px 0 25px;
+    text-decoration: none;
+    color: #F8EEE4;
+}
+
+.main__section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 85px;
+}
+
+.main__content {
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    width: 49%;
+}
+
+.description__balind {
+    position: relative;
+    width: 100%;
+}
+
+.about__bali {
+    font-family: 'PTSerif';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 280px;
+    line-height: 307px;
+    bottom: 14px;
+    position: relative;
+    color: #F8EEE4;
+    opacity: 0.4;
+}
+
+.about__indonesia {
+    font-family: 'PTSerif';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 98px;
+    line-height: 0;
+    left: 85px;
+    bottom: 55px;
+    position: absolute;
+    color: #F8EEE4;
+
+}
+
+
+.about__text {
+    font-family: 'MuseoSansCyrl';
+    max-width: 500px;
+    font-size: 20px;
+    color: #F8EEE4;
+    letter-spacing: 0.2px;
+    margin-top: 33px;
+    margin-left: 25px;
+}
+
+.travel__button {
+    width: 298px;
+    height: 63px;
+    background: #D4BEA3;
+    border-radius: 55px;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 22px;
+    outline: none;
+    border: none;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.main__img {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    column-gap: 18px;
+    align-items: center;
+    padding-top: 45px;
+}
+
+.img__balione {
+    background: url(img/One.jpg) no-repeat;
+    min-width: 333px;
+    height: 420px;
+    border-radius: 5px;
+}
+
+.img__balitwo {
+    background: url(img/Two.jpg) no-repeat;
+    min-width: 301px;
+    height: 379px;
+    border-radius: 5px;
+}
+
+.img__balithree{
+    background: url(img/Three.jpg) no-repeat;
+    min-width: 212px;
+    height: 379px;
+    border-radius: 5px;
+}
+
+    @media (max-width: 1366px) {
+        .wrapper {
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .header {
+            padding: 60px 0;
+            width: 94.9%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .vector__img {
+            width: 104px;
+            height: 39px;
+            padding-left: 142px;
+        }
+
+        .menu {
+            font-size: 14px;
+        }
+
+        .main__section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 37px;
+        }
+
+        .main__content {
+            position: relative;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: auto;
+            width: 43%;
+        }
+
+        .description__balind {
+            position: relative;
+            /* width: 100%; */
+        }
+
+        .about__bali {
+            font-family: 'PTSerif';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 195px;
+            line-height: 265px;
+            bottom: 5px;
+            position: relative;
+            color: #F8EEE4;
+            opacity: 0.4;
+        }
+
+        .about__indonesia {
+            font-family: 'PTSerif';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 70px;
+            line-height: 0;
+            left: 50px;
+            bottom: 62px;
+            position: absolute;
+            color: #F8EEE4;
+        }
+
+        .about__text {
+            font-family: 'MuseoSansCyrl';
+            max-width: 417px;
+            font-size: 16px;
+            color: #F8EEE4;
+            letter-spacing: 0.2px;
+            margin-top: 0px;
+            margin-left: 9px;
+        }
+
+        .travel__button {
+            width: 209px;
+            height: 44px;
+            background: #D4BEA3;
+            border-radius: 48px;
+            font-size: 16px;
+            margin-top: 7px;
+            margin-left: 7px;
+            outline: none;
+            border: none;
+            letter-spacing: 1px;
+            color: #FFFFFF;
+        }
+
+        .main__img {
+            display: flex;
+            justify-content: space-between;
+            width: 46%;
+            align-items: center;
+            padding-top: 63px;
+        }
+
+        .img__balione {
+            background: url(img/1366_one.jpg) no-repeat;
+            min-width: 230px;
+            height: 300px;
+            border-radius: 5px;
+        }
+
+        .img__balitwo {
+            background: url(img/1366_two.jpg) no-repeat;
+            min-width: 213px;
+            height: 270px;
+            border-radius: 5px;
+        }
+
+        .img__balithree {
+            background: url(img/1366_three.jpg) no-repeat;
+            min-width: 180px;
+            height: 270px;
+            border-radius: 5px;
+        }    
+
+    }
+
+    @media (max-width: 1024px) {
+        
+        body{
+            background: url(img/fon.jpg) no-repeat;
+            font-family: 'MuseoSansCyrl', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            margin: 0;
+
+        }
+
+        .header {
+            padding: 52px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .wrapper{
+            margin-left: auto;
+            width: 100%;
+        }
+
+        .vector__img{
+            width: 100px;
+            height: 48px;
+            padding-left: 43px;
+        }
+
+        .menu {
+            font-size: 12px;
+        }
+
+        .main__section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 66px;
+            width: 100%;
+        }
+
+        .main__content {
+            position: relative;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: auto;
+            width: 58%;
+        }
+
+        .about__bali {
+            font-family: 'PTSerif';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 201px;
+            line-height: 3px;
+            left: 39px;
+            bottom: 13px;
+            position: relative;
+            color: #F8EEE4;
+            opacity: 0.4;
+        }
+
+        .about__indonesia {
+            font-family: 'PTSerif';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 69px;
+            line-height: 0;
+            left: 102px;
+            bottom: 19px;
+            position: absolute;
+            color: #F8EEE4;
+        }
+
+        .about__text {
+            font-family: 'MuseoSansCyrl';
+            max-width: 500px;
+            font-size: 16px;
+            color: #F8EEE4;
+            letter-spacing: 0.2px;
+            padding-top: 42px;
+            position: absolute;
+            margin-left: 52px;
+        }
+
+        .travel__button {
+            width: 209px;
+            height: 44px;
+            background: #D4BEA3;
+            border-radius: 55px;
+            font-size: 16px;
+            position: relative;
+            bottom: -118px;
+            margin-left: 55px;
+            outline: none;
+            border: none;
+            letter-spacing: 1px;
+            color: #FFFFFF;
+        }
+
+        .main__img {
+            display: flex;
+            justify-content: space-between;
+            overflow: hidden;
+            column-gap: 1px;
+            position: relative;
+            align-items: center;
+            width: 72%;
+            bottom: 12px;
+            margin: auto;
+        }
+
+        .img__balione {
+            background: url(img/1024one.png) no-repeat;
+            min-width: 250px;
+            margin-left: 54px;
+            border-radius: 5px;
+        }
+
+        .img__balitwo {
+            background: url(img/1024two.png) no-repeat;
+            min-width: 225px;
+            border-radius: 5px;
+        }
+
+        .img__balithree{
+            background: url(img/1024three.png) no-repeat;
+            border-radius: 5px;
+        }
+            }
+
+    @media (max-width:375px) {
+
+        body{
+            background: url(img/fon.jpg) no-repeat;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            margin: 0px;
+        }
+        
+        .wrapper {
+            width: 100%;
+            margin: auto;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            padding-top: 62px;
+            justify-content: space-between;
+        }
+
+
+        .vector__img {
+            width: 100%;
+            height: 58px;
+        }
+
+        .about__bali {
+            font: 700 243px/356px 'PTSerif';
+            background-blend-mode: overlay;
+            display: flex;
+            position: relative;
+        }
+
+        .about__indonesia {
+            font: 700 87px/101px 'PTSerif';
+            color: #F8EEE4;
+            margin-left: 10px;
+            letter-spacing: 2px;
+        }
+
+        .main__section {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 28px;
+        }
+
+        .main__content {
+        position: relative;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        }
+
+        .about__text {
+            display: flex;
+            font-family: 'MuseoSansCyrl';
+            font-size: 22px;
+            width: 100%;
+            line-height: 33px;
+            letter-spacing: 0.5px;
+            color: #F8EEE4;
+            text-align: -webkit-center;
+            align-items: center;
+            margin-left: 90px;
+        }
+
+        .travel__button {
+            width: 312px;
+            height: 63px;
+            position: relative;
+            top: 222px;
+            left: 59px;
+            background: #D4BEA3;
+            border-radius: 55px;
+            font-size: 22px;
+            line-height: 19px;
+            outline: none;
+            border: none;
+            letter-spacing: 1px;
+            color: #FFFFFF;
+        }
+
+        .main__img {
+        display: none;
+        }
+
+        .menu {
+        font-size: 14px;
+        margin-top: 11px;
+        }
+
+        .menu_list {
+        display: none;
+        }
+
+        .menu-open{
+        display: block;
+        }
+
+        .header_burger {
+        display: block;
+        height: 22px;
+        left: 190px;
+        position: relative;
+        z-index: 2;
+        }
+            
+            .header_burger span {
+                position: absolute;
+                background-color: ivory;
+                left: 0;
+                width: 48px;
+                height: 4px;
+                top: 9px;
+                transition: all 0.3s ease 0s;
+            }
+        
+            .header_burger:before,
+            .header_burger:after {
+                content:'';
+                background-color: ivory;
+                position: absolute;
+                width: 48px;
+                height: 4px;
+                left: 0;
+                transition: all 0.3s ease 0s;
+            }
+        
+            .header_burger:before {
+                top: 0;
+            }
+        
+            .header_burger:after {
+                bottom: 0;
+            }
+        
+            .header_burger.active span {
+                transform: scale(0);
+            }
+        
+            .header_burger.active:before {
+                transform: rotate(45deg);
+                top: 9px;
+                background-color: black;
+                /* -webkit-transform: rotate(45deg);
+                -moz-transform: rotate(45deg);
+                -ms-transform: rotate(45deg);
+                -o-transform: rotate(45deg);*/
+            }
+        
+            .header_burger.active:after {
+                transform: rotate(-45deg);
+                bottom: 9px;
+                background-color: black;
+                /*-webkit-transform: rotate(-45deg);
+                -moz-transform: rotate(-45deg);
+                -ms-transform: rotate(-45deg);
+                -o-transform: rotate(-45deg);*/
+            }
+
+            .header_burger.active ~ .menu .menu_list {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                height: 160vh;
+                width: 585px;
+                z-index: 1;
+                background-color: ivory;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .header_burger.active ~ .menu .menu__item {
+                color: #000;
+                font-family: 'MuseoSansCyrl';
+            }
+
+            input {
+                display: none;
+            }
+            
+            .menu__item {font-size: 32px;line-height: 61px;top: 165px;}
+            /*.header {
+                padding: 38px 0px;
+                margin-bottom: 15px;
+                margin-right: 66px;
+                padding-top: 11px;
+            }   */ 
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
