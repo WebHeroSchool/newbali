@@ -1,6 +1,6 @@
 
 body{
-    background: url(img/fon.jpg) no-repeat;
+    background: url(img/fon.jpg)  top no-repeat;
     font-family: 'MuseoSansCyrl', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -400,7 +400,7 @@ body{
 @media (min-width:375px) and (max-width:768px) {
 
     body{
-        background: url(img/fon.jpg) no-repeat;
+        background: url(img/mobile.png) no-repeat;
         background-repeat: no-repeat;
         background-position: center center;
         background-attachment: fixed;
@@ -509,7 +509,7 @@ body{
                                 position: absolute;
                                 width: 27px;
                                 height: 3px;
-                                left: 34px;
+                                left: 43px;
                                 transition: all 0.3s ease 0s;
                             }
                         
@@ -566,6 +566,18 @@ body{
 
                                 
 @media (min-width:728px) and (max-width:1080px) {
+
+    body{
+        background: url(img/mobile.png) no-repeat;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin: 0px;
+        } 
 
     .about__indonesia {
         font: 700 57px/62px 'PTSerif';
