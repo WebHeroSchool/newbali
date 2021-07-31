@@ -37,7 +37,7 @@ body{
 }
 
 .menu__item{
-    padding: 0 10px 24px 10px;
+    padding: 0 18px 24px 10px;
     text-decoration: none;
     color: #F8EEE4;
 }
@@ -122,27 +122,27 @@ body{
 }
 
 .img__balione {
-    background: url(img/One.jpg) no-repeat;
+    background: url(img/1920one.png) no-repeat;
     min-width: 332px;
     height: 420px;
     border-radius: 5px;
 }
 
 .img__balitwo {
-    background: url(img/Two.jpg) no-repeat;
+    background: url(img/1920two.png) no-repeat;
     min-width: 301px;
     height: 379px;
     border-radius: 5px;
 }
 
 .img__balithree{
-    background: url(img/Three.jpg) no-repeat;
+    background: url(img/1920three.png) no-repeat;
     min-width: 212px;
     height: 379px;
     border-radius: 5px;
 }
 
-    @media (max-width: 1366px) {
+    @media (max-width: 1368px) {
         .wrapper {
             margin: 0 auto;
             width: 100%;
@@ -190,9 +190,10 @@ body{
             font-family: 'PTSerif';
             font-style: normal;
             font-weight: bold;
-            font-size: 195px;
+            font-size: 199px;
             line-height: 265px;
-            bottom: 5px;
+            margin-left: -7px;
+            bottom: 8px;
             position: relative;
             color: #F8EEE4;
             opacity: 0.4;
@@ -243,21 +244,21 @@ body{
         }
 
         .img__balione {
-            background: url(img/1366_one.jpg) no-repeat;
+            background: url(img/1366one.png) no-repeat;
             min-width: 232px;
             height: 300px;
             border-radius: 5px;
         }
 
         .img__balitwo {
-            background: url(img/1366_two.jpg) no-repeat;
+            background: url(img/1366two.png) no-repeat;
             min-width: 213px;
             height: 270px;
             border-radius: 5px;
         }
 
         .img__balithree {
-            background: url(img/1366_three.jpg) no-repeat;
+            background: url(img/1366three.png) no-repeat;
             min-width: 180px;
             height: 270px;
             border-radius: 5px;
@@ -268,7 +269,7 @@ body{
     @media (max-width: 1024px) {
         
         body{
-            background: url(img/fon.jpg) no-repeat;
+            background: url(img/1024.png) no-repeat;
             font-family: 'MuseoSansCyrl', sans-serif;
             font-style: normal;
             font-weight: 500;
@@ -397,7 +398,7 @@ body{
         }
             }
 
-@media (min-width:375px) and (max-width:768px) {
+@media (max-width:768px) {
 
     body{
         background: url(img/mobile.png) no-repeat;
@@ -495,7 +496,7 @@ body{
                             .header_burger span {
                                 position: absolute;
                                 background-color: ivory;
-                                left: 34px;
+                                left: 32px;
                                 width: 27px;
                                 height: 3px;
                                 top: 9px;
@@ -509,7 +510,7 @@ body{
                                 position: absolute;
                                 width: 27px;
                                 height: 3px;
-                                left: 43px;
+                                left: 32px;
                                 transition: all 0.3s ease 0s;
                             }
                         
