@@ -505,7 +505,7 @@ body{
                                 position: absolute;
                                 background-color: ivory;
                                 left: 35px;
-                                width: 23px;
+                                width: 22px;
                                 height: 2px;
                                 top: 9px;
                                 transition: all 0.3s ease 0s;
@@ -536,12 +536,14 @@ body{
                         
                             .header_burger.active:before {
                                 transform: rotate(45deg);
+                                left: 44px;
                                 top: -14px;
                                 background-color: black;
                             }
                         
                             .header_burger.active:after {
                                 transform: rotate(-45deg);
+                                left: 44px;
                                 top: -14px;
                                 background-color: black;
                             }
@@ -570,7 +572,7 @@ body{
                                 display: none;
                             }
                             
-                            .menu__item {font-size: 32px;line-height: 36px;top: 0; text-transform: lowercase;}
+                            .menu__item {font-size: 32px;line-height: 36px;top: 0; text-transform: lowercase; padding: 0 10px 24px 10px;}
             
 
                                 
