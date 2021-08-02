@@ -13,7 +13,7 @@ body{
 .header {
     padding: 84px 0;
     display: flex;
-    width: 93.4%;
+    width: 94%;
     align-items: center;
     justify-content: space-between;
 }
@@ -37,7 +37,7 @@ body{
 }
 
 .menu__item{
-    padding: 0 18px 24px 10px;
+    padding: 0 18px 2px 13px;
     text-decoration: none;
     color: #F8EEE4;
 }
@@ -90,12 +90,12 @@ body{
 
 .about__text {
     font-family: 'MuseoSansCyrl';
-    max-width: 500px;
+    max-width: 540px;
     font-size: 20px;
     color: #F8EEE4;
-    letter-spacing: 0.2px;
-    margin-top: 28px;
-    margin-left: 44px;
+    letter-spacing: 0.9px;
+    margin-top: 34px;
+    margin-left: 27px;
 }
 
 .travel__button {
@@ -150,7 +150,7 @@ body{
 
         .header {
             padding: 60px 0;
-            width: 94.9%;
+            width: 95%;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -163,7 +163,13 @@ body{
         }
 
         .menu {
-            font-size: 14px;
+            font-size: 15px;
+        }
+
+        .menu__item {
+            padding: 0px 14px 2px 12px;
+            text-decoration: none;
+            color: #F8EEE4;
         }
 
         .main__section {
@@ -213,12 +219,13 @@ body{
 
         .about__text {
             font-family: 'MuseoSansCyrl';
-            max-width: 417px;
-            font-size: 16px;
+            max-width: 400px;
+            font-size: 14px;
             color: #F8EEE4;
-            letter-spacing: 0.2px;
+            letter-spacing: 0.9px;
+            line-height: 19px;
             margin-top: 0px;
-            margin-left: 9px;
+            margin-left: 6px;
         }
 
         .travel__button {
@@ -297,7 +304,7 @@ body{
         }
 
         .menu {
-            font-size: 14px;
+            font-size: 15px;
         }
 
         .main__section {
@@ -322,8 +329,8 @@ body{
             font-weight: bold;
             font-size: 201px;
             line-height: 3px;
-            left: 39px;
-            bottom: 13px;
+            left: 46px;
+            bottom: 16px;
             position: relative;
             color: #F8EEE4;
             opacity: 0.4;
@@ -335,8 +342,8 @@ body{
             font-weight: bold;
             font-size: 69px;
             line-height: 0;
-            left: 102px;
-            bottom: 19px;
+            left: 101px;
+            bottom: 17px;
             position: absolute;
             color: #F8EEE4;
         }
@@ -375,7 +382,7 @@ body{
             position: relative;
             align-items: center;
             width: 72%;
-            bottom: 12px;
+            bottom: 10px;
             margin: auto;
         }
 
@@ -418,27 +425,28 @@ body{
             }
         
                 .header {
-                    padding-top: 31px;
+                    padding-top: 32px;
                     width: 100%;
                 }
         
         
                 .vector__img {
                     width: 53%;
-                    height: 57px;
+                    height: 58px;
                 }
         
                 .about__bali {
-                    font: 700 166px/232px 'PTSerif';
+                    font: 700 170px/232px 'PTSerif';
                     background-blend-mode: overlay;
-                    left: -12px;
-                    bottom: 11px;
+                    left: -10px;
+                    bottom: 17px;
                 }
                     
                 .about__indonesia {
                     font: 700 57px/62px 'PTSerif';
                     color: #F8EEE4;
-                    margin-left: -28px;
+                    margin-left: -27px;
+                    bottom: 24px;
                     letter-spacing: 2px;
                 }
         
@@ -453,19 +461,19 @@ body{
         
                 .about__text {
                     font-size: 18px;
-                    line-height: 23px;
+                    line-height: 21px;
                     letter-spacing: 0.3px;
-                    padding: 24px 0;
+                    padding: 21px 0;
                     position: relative;
                     max-width: 309px;
                     margin: 0 auto;
                 }
         
                 .travel__button {
-                    width: 209px;
-                    height: 45px;
+                    width: 210px;
+                    height: 44px;
                     font-size: 15px;
-                    margin: 7px 0px 0px -14px;
+                    margin: 16px 0px 0px -15px;
                     position: inherit;
                 }
         
@@ -496,9 +504,9 @@ body{
                             .header_burger span {
                                 position: absolute;
                                 background-color: ivory;
-                                left: 32px;
-                                width: 27px;
-                                height: 3px;
+                                left: 35px;
+                                width: 23px;
+                                height: 2px;
                                 top: 9px;
                                 transition: all 0.3s ease 0s;
                             }
@@ -508,9 +516,9 @@ body{
                                 content:'';
                                 background-color: ivory;
                                 position: absolute;
-                                width: 27px;
-                                height: 3px;
-                                left: 32px;
+                                width: 22px;
+                                height: 2px;
+                                left: 35px;
                                 transition: all 0.3s ease 0s;
                             }
                         
