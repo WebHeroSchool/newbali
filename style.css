@@ -212,7 +212,7 @@ body{
             font-weight: bold;
             font-size: 70px;
             line-height: 0;
-            left: 56px;
+            left: 52px;
             bottom: 62px;
             position: absolute;
             color: #F8EEE4;
@@ -447,7 +447,7 @@ body{
                 .about__indonesia {
                     font: 700 57px/62px 'PTSerif';
                     color: #F8EEE4;
-                    margin-left: -27px;
+                    margin-left: 36px;
                     bottom: 24px;
                     letter-spacing: 2px;
                 }
