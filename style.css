@@ -66,8 +66,8 @@ body{
     font-family: 'PTSerif';
     font-style: normal;
     font-weight: bold;
-    font-size: 285px;
-    line-height: 307px;
+    font-size: calc(14vw + 14px);
+    line-height:calc(16vw);
     bottom: 14px;
     position: relative;
     color: #F8EEE4;
@@ -78,9 +78,9 @@ body{
     font-family: 'PTSerif';
     font-style: normal;
     font-weight: bold;
-    font-size: 98px;
-    line-height: 0;
-    left: 91px;
+    font-size: calc(5vw + 5px);
+    line-height:0px;
+    left: 78px;
     bottom: 57px;
     position: absolute;
     color: #F8EEE4;
@@ -117,8 +117,9 @@ body{
     justify-content: space-between;
     overflow: hidden;
     column-gap: 18px;
+    margin-left: 0px;
     align-items: center;
-    padding-top: 53px;
+    padding-top: 46px;
 }
 
 .img__balione {
@@ -198,7 +199,7 @@ body{
             font-weight: bold;
             font-size: 199px;
             line-height: 265px;
-            margin-left: -7px;
+            margin-left: -6px;
             bottom: 8px;
             position: relative;
             color: #F8EEE4;
@@ -211,7 +212,7 @@ body{
             font-weight: bold;
             font-size: 70px;
             line-height: 0;
-            left: 50px;
+            left: 56px;
             bottom: 62px;
             position: absolute;
             color: #F8EEE4;
@@ -225,7 +226,7 @@ body{
             letter-spacing: 0.9px;
             line-height: 19px;
             margin-top: 0px;
-            margin-left: 6px;
+            margin-left: 9px;
         }
 
         .travel__button {
@@ -234,8 +235,8 @@ body{
             background: #D4BEA3;
             border-radius: 48px;
             font-size: 16px;
-            margin-top: 7px;
-            margin-left: 7px;
+            margin-top: 10px;
+            margin-left: 12px;
             outline: none;
             border: none;
             letter-spacing: 1px;
@@ -305,6 +306,7 @@ body{
 
         .menu {
             font-size: 15px;
+            margin-right: -5px;
         }
 
         .main__section {
@@ -342,7 +344,7 @@ body{
             font-weight: bold;
             font-size: 69px;
             line-height: 0;
-            left: 101px;
+            left: calc(10vw);
             bottom: 17px;
             position: absolute;
             color: #F8EEE4;
@@ -381,7 +383,7 @@ body{
             column-gap: 1px;
             position: relative;
             align-items: center;
-            width: 72%;
+            width: 71%;
             bottom: 10px;
             margin: auto;
         }
@@ -389,7 +391,7 @@ body{
         .img__balione {
             background: url(img/1024one.png) no-repeat;
             min-width: 250px;
-            margin-left: 54px;
+            margin-left: 49px;
             border-radius: 5px;
         }
 
@@ -507,7 +509,7 @@ body{
                                 left: 35px;
                                 width: 22px;
                                 height: 2px;
-                                top: 9px;
+                                top: 11px;
                                 transition: all 0.3s ease 0s;
                             }
                         
@@ -523,11 +525,11 @@ body{
                             }
                         
                             .header_burger:before {
-                                top: 0;
+                                top: 4px;
                             }
                         
                             .header_burger:after {
-                                bottom: 0;
+                                bottom: 2px;
                             }
                         
                             .header_burger.active span {
@@ -576,7 +578,7 @@ body{
             
 
                                 
-@media (min-width:728px) and (max-width:1080px) {
+@media (min-width:693px) and (max-width:1080px) {
 
     body{
         background: url(img/mobile.png) no-repeat;
@@ -603,7 +605,7 @@ body{
         margin-left: 100px;
         width: 27px;
         height: 3px;
-        top: 9px;
+        top: 11px;
         transition: all 0.3s ease 0s;
     }                                          
                                                     
@@ -617,4 +619,4 @@ body{
         margin-left: 100px;
         transition: all 0.3s ease 0s;
     }                                           
-                                                    
+
